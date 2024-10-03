@@ -54,9 +54,7 @@ Linear Regression is a statistical method used to model the relationship between
 
 The general formula for Linear Regression is:
 ```math
-\[
 y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon
-\]
 ```
 
 Where:
@@ -79,22 +77,21 @@ Linear Regression works under the following key assumptions:
 To evaluate the performance of a Linear Regression model, the following metrics are commonly used:
 
 - **Mean Squared Error (MSE)**: Measures the average of the squares of the errors. It is calculated as:
-
-  \[
+```math
   \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-  \]
+```
 
 - **Root Mean Squared Error (RMSE)**: The square root of MSE, providing a measure of error in the same units as the target variable.
 
-  \[
+```math
   \text{RMSE} = \sqrt{\text{MSE}}
-  \]
+```
 
 - **R² Score**: Represents the proportion of variance in the dependent variable that is predictable from the independent variables. It is calculated as:
 
-  \[
+```math
   R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
-  \]
+```
 
 ### Implementation
 
