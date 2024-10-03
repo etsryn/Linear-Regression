@@ -59,11 +59,11 @@ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon
 \]
 
 Where:
-- y: Dependent variable (target).
-- x_1, x_2, \dots, x_n: Independent variables (features).
-- \beta_0: Intercept term, representing the value of y when all x_i are zero.
-- \beta_1, \beta_2, \dots, \beta_n: Coefficients representing the weight of each feature.
-- \epsilon: Error term, representing the noise or residuals in the data.
+- \( y \): Dependent variable (target).
+- \( x_1, x_2, \dots, x_n \): Independent variables (features).
+- \( \beta_0 \): Intercept term, representing the value of \( y \) when all \( x_i \) are zero.
+- \( \beta_1, \beta_2, \dots, \beta_n \): Coefficients representing the weight of each feature.
+- \( \epsilon \): Error term, representing the noise or residuals in the data.
 
 ### Assumptions of Linear Regression
 
@@ -79,21 +79,21 @@ To evaluate the performance of a Linear Regression model, the following metrics 
 
 - **Mean Squared Error (MSE)**: Measures the average of the squares of the errors. It is calculated as:
 
-\[
+  \[
   \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\]
+  \]
 
 - **Root Mean Squared Error (RMSE)**: The square root of MSE, providing a measure of error in the same units as the target variable.
 
-\[
+  \[
   \text{RMSE} = \sqrt{\text{MSE}}
-\]
+  \]
 
 - **R² Score**: Represents the proportion of variance in the dependent variable that is predictable from the independent variables. It is calculated as:
 
-\[
+  \[
   R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
-\]
+  \]
 
 ### Implementation
 
