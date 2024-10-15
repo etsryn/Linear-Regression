@@ -193,7 +193,7 @@ The workflow highlights how **data preprocessing, model training, serialization,
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the content as needed, giving appropriate credit.
+This project is licensed under the [Apache License - Version 2.0, January 2004](LICENSE). Feel free to use, modify, and distribute the content as needed, giving appropriate credit.
 
 ---
 
