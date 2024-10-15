@@ -71,6 +71,7 @@ Where:
 - `model_plot_all_direction.py`: Python script containing the code that generates and saves the Surface of Regression `SOR` and showcasing in all directions in form of (`.gif`)
 - `model_plot_bi_direction.py`: Python script containing the code that generates and saves the Surface of Regression `SOR` and showcasing 2 alternating directions in form of (`.gif`)
 - `linear_regression_model.pkl`: Trained model, serialized and saved using **Pickle** to allow reuse without re-training.
+- `requirements.txt`: A text file containing package dependencies of the entire program.
 
 ---
 
@@ -187,6 +188,7 @@ The workflow highlights how **data preprocessing, model training, serialization,
 - `model_application.py`: Python script containing the code to use model without re-trainning
 - `model_plot_all_direction.py`: Python script containing the code that generates and saves `SOR` in (`.gif`) format
 - `model_plot_bi_direction.py`: Python script containing the code that generates and saves `SOR` in (`.gif`) format
+- `requirements.txt`: A text file containing package dependencies of the entire program.
 
 
 ---
