@@ -197,4 +197,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ---
 
-Explore the code and datasets to understand how linear regression works, and feel free to contribute improvements or new ideas. Happy learning! 🎯
+Explore the code and datasets to understand how linear regression works, and feel free to contribute improvements or new ideas.
