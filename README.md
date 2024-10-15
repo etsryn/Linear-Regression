@@ -58,18 +58,18 @@ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon
 ```
 
 Where:
-- \( y \): Dependent variable (target).
-- \( x_1, x_2, \dots, x_n \): Independent variables (features).
-- \( \beta_0 \): Intercept term, representing the value of \( y \) when all \( x_i \) are zero.
-- \( \beta_1, \beta_2, \dots, \beta_n \): Coefficients representing the weight of each feature.
-- \( \epsilon \): Error term, representing the noise or residuals in the data.
+- $`y`$: Dependent variable (target).
+- $`x_1, x_2, \dots, x_n`$: Independent variables (features).
+- $`\beta_0`$: Intercept term, representing the value of $`y`$ when all $`x_i`$ are zero.
+- $`\beta_1, \beta_2, \dots, \beta_n`$: Coefficients representing the weight of each feature.
+- $`\epsilon`$: Error term, representing the noise or residuals in the data.
 
 ### Assumptions of Linear Regression
 
 Linear Regression works under the following key assumptions:
 1. **Linearity**: There is a linear relationship between the dependent and independent variables.
 2. **Independence**: Observations are independent of each other.
-3. **Homoscedasticity**: The residuals (errors) have constant variance across the data.
+3. **Homoscedasticity**: The residuals (`errors`) have constant variance across the data.
 4. **Normality**: The residuals are normally distributed.
 
 ### Evaluating Model Performance
