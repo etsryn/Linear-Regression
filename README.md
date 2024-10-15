@@ -119,7 +119,7 @@ This is a community-driven project, and your contributions will help others lear
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the content of this repository, giving proper credit.
+This repository is licensed under the [Apache License - Version 2.0, January 2004](LICENSE). Feel free to use, modify, and distribute the content of this repository, giving proper credit.
 
 ## Contact
 
