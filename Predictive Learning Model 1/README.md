@@ -22,7 +22,7 @@ This project involves two datasets:
 ### Implicit Relationship  
 The data follows a hidden rule:  
 
-\(col3 = col1 + col2\)
+\col3 = col1 + col2\
 
 
 This relationship is **not explicitly mentioned** in the dataset. The task of the linear regression model is to **discover and learn** this relationship during the training phase, and use it to predict values of col3 for the test dataset.
