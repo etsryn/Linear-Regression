@@ -39,7 +39,7 @@ def update(frame):
 frames = 360 * 2
 ani = FuncAnimation(fig, update, frames=frames, interval=50)
 
-# To save the .gif
+# To Save the animation as a GIF
 # ani.save('full_rotating_3d_regression.gif', writer='pillow')
 
 plt.show()
