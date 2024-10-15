@@ -186,4 +186,4 @@ This project is licensed under the [Apache License - Version 2.0, January 2004](
 
 ---
 
-Explore the code and datasets to understand how linear regression works, and feel free to contribute improvements or new ideas. Happy learning! 🎯
+Explore the code and datasets to understand how linear regression works, and feel free to contribute improvements or new ideas.
