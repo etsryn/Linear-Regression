@@ -1,5 +1,5 @@
 # Predictive Learning Model 1
-
+![Alt Text](./3d_regression_views.png)
 ## Overview
 
 This folder contains **Predictive Learning Model 1**, a linear regression model that demonstrates predictive learning by identifying underlying patterns within structured data. The model is trained using a dataset where the dependent variable (col3) is a function of two independent variables (col1 and col2), although this relationship is not explicitly provided. The task showcases the fundamental strength of **linear regression** in learning linear dependencies between variables from data and applying them to make future predictions.
