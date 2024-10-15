@@ -1,18 +1,24 @@
 # Predictive Learning Model 2
+```math
+Surface\; of\; Regression\; View\; 1 \\[1em]
+```
 ![Alt Text](./full_rotating_3d_regression.gif)
-![Alt Text](./bi_directional+rotation_3d_regression.gif)
+```math
+Surface\; of\; Regression\; View\; 2 \\[1em]
+```
+![Alt Text](./bi_directional_rotation_3d_regression.gif)
 ## Overview
 
-This folder contains **Predictive Learning Model 1**, a linear regression model that demonstrates predictive learning by identifying underlying patterns within structured data. The model is trained using a dataset where the dependent variable (col3) is a function of two independent variables (col1 and col2), although this relationship is not explicitly provided. The task showcases the fundamental strength of **linear regression** in learning linear dependencies between variables from data and applying them to make future predictions.
+This folder contains **Predictive Learning Model 2**, a linear regression model that demonstrates predictive learning by identifying underlying patterns within structured data. The model is trained using a dataset where the dependent variable (col3) is a function of two independent variables (col1 and col2), although this relationship is not explicitly provided. The task showcases the fundamental strength of **linear regression** in learning linear dependencies between variables from data and applying them to make future predictions.
 
 ---
 
 ## Dataset
 
-This directory `Predictive Learning Model 1` involves two datasets: 
+This directory `Predictive Learning Model 2` involves two datasets: 
 
-1. `train_data.xlsx`: Used to train the linear regression model.  
-2. `test_data.xlsx`: Used for testing and validating the trained model's predictions.
+1. `train_data.csv`: Used to train the linear regression model.  
+2. `test_data.csv`: Used for testing and validating the trained model's predictions.
 
 ### Data Structure
 
@@ -23,7 +29,7 @@ This directory `Predictive Learning Model 1` involves two datasets:
 ### Implicit Relationship  
 The data follows a hidden rule:  
 ```
-col3 = col1 + col2
+col3 = col1 - col2
 ```
 
 This relationship is **not explicitly mentioned** in the dataset. The task of the linear regression model is to **discover and learn** this relationship during the training phase, and use it to predict values of col3 for the test dataset.
@@ -60,7 +66,10 @@ Where:
 
 - `train_data.xlsx`: Dataset used for training the model.  
 - `test_data.xlsx`: Dataset used for testing and validating the model.  
-- `linear_prediction.py`: Python script containing the code to train the model, make predictions, and evaluate performance.  
+- `linear_prediction.py`: Python script containing the code to train the model, make predictions, and evaluate performance.
+- `model_application.py`: Python script containing the code to use model on the base of the saved model
+- `model_plot_all_direction.py`: Python script containing the code that generates and saves the Surface of Regression `SOR` and showcasing in all directions in form of (`.gif`)
+- `model_plot_bi_direction.py`: Python script containing the code that generates and saves the Surface of Regression `SOR` and showcasing 2 alternating directions in form of (`.gif`)
 - `linear_regression_model.pkl`: Trained model, serialized and saved using **Pickle** to allow reuse without re-training.
 
 ---
@@ -98,7 +107,7 @@ pip install pandas scikit-learn openpyxl
      ```
      or
      ```bash
-     python linear_prediction.py
+     python model_application.py
      ```
    - The script loads **test_data.xlsx**, applies the trained model, and predicts values for **col3**.
 
@@ -175,6 +184,10 @@ The workflow highlights how **data preprocessing, model training, serialization,
 - `linear_prediction.py`: Python script for training, predicting, and evaluating the model.  
 - `linear_regression_model.pkl`: Serialized model for reuse.  
 - `README.md`: This file, providing a comprehensive overview of the project.
+- `model_application.py`: Python script containing the code to use model without re-trainning
+- `model_plot_all_direction.py`: Python script containing the code that generates and saves `SOR` in (`.gif`) format
+- `model_plot_bi_direction.py`: Python script containing the code that generates and saves `SOR` in (`.gif`) format
+
 
 ---
 
