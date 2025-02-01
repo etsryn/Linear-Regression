@@ -115,7 +115,7 @@ Contributions are highly appreciated! If you have any ideas for new Linear Regre
 - **Adding a new folder** with the model, dataset, and relevant documentation.
 - **Opening a pull request** for review.
 
-This is a community-driven project, and your contributions will help others learn and grow.
+This is a individual-driven project, and your contributions will help others learn and grow.
 
 ## License
 
