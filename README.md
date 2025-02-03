@@ -14,10 +14,10 @@ The repository is organized into individual folders, each containing a specific 
 
 Each model folder contains:
 
-- **Dataset/**: The dataset used for training and testing the model.
+- **Dataset**: The dataset used for training and testing the model.
 - **model.ipynb or model.py**: A Jupyter Notebook (`.ipynb`) or Python script (`.py`) that includes the code for data preprocessing, model training, and evaluation.
 - **README.md**: A brief description of the dataset, the goal of the model, and insights derived from the analysis.
-- **Results/**: Visualizations, performance metrics, or other relevant outputs generated during the model's evaluation.
+- **Results**: Visualizations, performance metrics, or other relevant outputs generated during the model's evaluation.
 
 ## How to Use This Repository
 
