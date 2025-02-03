@@ -123,4 +123,4 @@ This repository is licensed under the [Apache License - Version 2.0, January 200
 
 ## Contact
 
-For questions, suggestions, or feedback, feel free to reach out via GitHub issues. We welcome your input and look forward to your contributions!
+For questions, suggestions, or feedback, feel free to reach out via GitHub issues or through [LinkedIn](https://www.linkedin.com/in/rayyan-ashraf). We welcome your input and look forward to your contributions!
