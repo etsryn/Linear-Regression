@@ -27,7 +27,7 @@ Each folder is named to identify the specific model and dataset used, such as `M
 
 ### Step 2: Review Documentation
 
-Inside each model folder, you will find a `README.md` file that provides an overview of the dataset and explains the model's purpose. This documentation will help you understand the motivation behind the model.
+Inside each model folder, you will find a `README.md` file that provides an overview of the dataset and explains the model's purpose. This documentation will help you understand the motivation behind the model and its application.
 
 ### Step 3: Run the Code
 
